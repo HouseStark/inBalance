@@ -1,7 +1,9 @@
 $navbar-default-bg: 				#2c3e50;
 $body-bg:							#ecf0f1;
 $brand-primary:					#3498db;
-$linkColor:      					#EDDA74;
+$navbar-inverse-bg: 				white;
+$navbar-inverse-link-color: 	#2c3e50;
+$jumbotron-bg: 					#bdc3c7;
 
 
 @import "bootstrap-sprockets";
@@ -16,7 +18,7 @@ $linkColor:      					#EDDA74;
 }
 
 .other-color{
-	background: #95a5a6;
+	background: #ffffff;
 }
 
 
