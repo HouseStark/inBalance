@@ -1,11 +1,28 @@
+$navbar-default-bg: 				#ecf0f1;
+$body-bg:							#2c3e50;
+$brand-primary:					#3498db;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "main";
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
 /* 
 
 *= require_self
 
 */
-
-$body-bg:		#2c3e50;
-
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "main";
