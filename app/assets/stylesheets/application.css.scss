@@ -1,10 +1,11 @@
-$navbar-default-bg: 				#ecf0f1;
-$body-bg:							#2c3e50;
+$navbar-default-bg: 				#2c3e50;
+$body-bg:							#ecf0f1;
 $brand-primary:					#3498db;
+$linkColor:      					#EDDA74;
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "main";
 
 .center {
 	text-align: center;
@@ -14,6 +15,9 @@ $brand-primary:					#3498db;
 	font-weight: bold;
 }
 
+.other-color{
+	background: #95a5a6;
+}
 
 
 
