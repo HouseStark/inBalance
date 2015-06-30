@@ -5,6 +5,10 @@ class PagesController < ApplicationController
   def about
   end
 
+  def classsettings
+  end
+
+
   def dashboard
   end
 

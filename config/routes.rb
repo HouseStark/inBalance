@@ -13,6 +13,8 @@ Rails.application.routes.draw do
 
   get "dashboard" => "pages#dashboard"
 
+  get "classsettings" => "pages#classsettings"
+
   root "pins#index"
 
 
