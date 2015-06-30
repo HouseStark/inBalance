@@ -4,6 +4,14 @@ Rails.application.routes.draw do
    # You can have the root of your site routed with "root"
   get "home" => "pages#home"
   get "about" => "pages#about"
+  get "class01" => "pages#class01"
+  
+  get "class02" => "pages#class02"
+  get "class03" => "pages#class03"
+  get "class04" => "pages#class04"
+  get "class05" => "pages#class05"
+
+  get "dashboard" => "pages#dashboard"
 
   root "pins#index"
 
